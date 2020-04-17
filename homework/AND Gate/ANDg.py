@@ -30,5 +30,6 @@ for i in C:
     result.append(1) if i >= 0.5 else result.append(0)
 
 print("\tx y | o")
+print("\t----|--")
 for i in range(len(result)):
     print("\t{} {} | {}".format(A[i][0], A[i][1], result[i]))
