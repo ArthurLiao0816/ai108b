@@ -14,6 +14,8 @@ print('dsolve(Derivative(V(t), t), V(t))=', sol.doit())
 * V(t)  = exp((C1 - t/R)/C)
         = exp((C1/(R*C))*exp(-t/(R*C))
         = V0*exp(-t/(R*C))
+
+## 結果
 '''
 PS C:\Users\ldhsi\Desktop\人工智慧\ai108b\homework\diffeqRC> py .\diffeq1.py
 dsolve(Derivative(V(t), t), V(t))= Eq(V(t), exp((C1 - t/R)/C))
