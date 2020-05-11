@@ -66,4 +66,4 @@ fi= [  0.+0.j   0.+0.j   0.-0.j   0.+0.j   0.+0.j   0.+0.j   0.+0.j   0.-0.j
    0.-0.j   0.-0.j   0.+0.j   0.-0.j]
 freq=  1
 ```
-![1](/home/aaon/文件/assets/1543803099995.png)
+![1](https://github.com/ArthurLiao0816/ai108b/blob/master/homework/fftfreq/result.png)
