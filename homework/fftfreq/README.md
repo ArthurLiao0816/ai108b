@@ -34,7 +34,8 @@ plt.show()
 ```
 
 ## 想法
-* 
+* 把pi由t移置ft，使其成為10cos(2pi*ft)，看起來跟傅立葉分析公式比較像，增加可讀性
+* 發現freq在圖上會有對稱性，也就是會印出兩個freq，所以將freq由[0, 1, ..., 10]這幾種可能值調成[0, 1, ..., 4]、同時將圖的x軸長度調成原本的一半，去除對稱性，這樣印在圖上的freq就是唯一且正確的值
 ## result
 ```
 PS C:\Users\ldhsi\Desktop\人工智慧\ai108b\homework\fftfreq> py .\fftfreq.py
