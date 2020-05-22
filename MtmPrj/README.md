@@ -40,4 +40,12 @@
 * 亞馬遜在 2017 年申請的一份專利顯示，語音辨識軟體透過用戶聲音來分析和確認用戶的感受，可辨識快樂、憤怒、悲傷、難過、恐懼、厭惡等多種情緒狀態。在應用中這項技術可監控用戶的情緒狀態，比如用戶處於生病中疲憊的狀態，準確辨識後語音助手會向用戶提供相應的幫助，可準確區分用戶的聲音和環境背景雜音。
 
 ## 實作
-1. pip install SpeechRecognitioin
+1. pip install SpeechRecognition
+   pip install pipwin
+   pipwin install pyaudio
+
+2. [Code](practice.py)
+
+3. py .\practice.py
+
+4. 說一段話

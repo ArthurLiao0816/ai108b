@@ -1,8 +1,11 @@
-import speech_recognition
+import speech_recognition as sr
 
-r = speech_recognition.Recognizer()
-
-with speech_recognition.Microphone() as source:
+r = sr.Recognizer()
+with sr.Microphone() as source:
+    print("Speak Anything :")
     audio = r.listen(source)
-
-r.recognize_bing(audio, language='zh-TW')
+    try:
+        text = r.recognize_google(audio)
+        print("You said : {}".format(text))
+    except:
+        print("Sorry could not recognize what you said")
