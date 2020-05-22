@@ -49,3 +49,6 @@
 3. py .\practice.py
 
 4. 說一段話
+
+5. 結果
+![](result.png)
