@@ -14,7 +14,7 @@ def alive(sta):
     return True                                   # They're all alive.
 
 # generate the next status
-def dfs(sta):
+def generate(sta):
     nextStaList = []                    # returning variable 
     
     for i in range(0, 4):
@@ -28,13 +28,13 @@ def dfs(sta):
         if(alive(nextSta)):             # If next status we about to move in fits successful condition, 
             nextStaList.append(nextSta) # upgrade returning status.
         
-    return nextStaList                  # end of "dfs()"
+    return nextStaList                  # end of "generate()"
 
 # Find the solution of this question while distiguish if we've gone to the current step.
 def solution(htySta):
     global sltCnt
     curSta = htySta[len(htySta) - 1]
-    nextStaList = dfs(curSta)                       # "nextStaList" stores all possible status groups of current status.
+    nextStaList = generate(curSta)                  # "nextStaList" stores all possible status groups of current status.
 
     for nextSta in nextStaList:
         if nextSta in htySta:                       # Check current group of status. If it has been searched,
@@ -70,4 +70,4 @@ def prtHtySta(htySta):
 
 # main
 solution(htySta)
-print("Success!!! Find" + str(sltCnt) + "solutions.")
+print("Success!!! Find " + str(sltCnt) + " solutions.")
