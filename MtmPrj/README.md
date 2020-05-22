@@ -50,5 +50,4 @@
 
 4. 說一段話
 
-5. 結果
-![](result.png)
+5. [結果(Click Me ^^)](result.png)
